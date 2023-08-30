@@ -44,3 +44,11 @@ const clearTimer = () => {
 		seconds: '0',
 	})
 }
+
+timer.addEventListener('submit', event => {
+	event.preventDefault()
+	const formData = new FormData(event.target)
+	const time = formData.get('time')
+	clearTimer()
+	startTimer(time)
+})
