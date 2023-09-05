@@ -1,3 +1,3 @@
 # simple-Timer
 
-[Demo](https://dmitriylasuta.github.io/simple-Timer/)
+[Demo](https://dmitrylasuta.github.io/simple-Timer/)
