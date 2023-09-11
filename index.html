@@ -1,53 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
 
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Space+Mono&display=swap"
-			rel="stylesheet"
-		/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Space+Mono&display=swap"
+      rel="stylesheet"
+    />
 
-		<link rel="stylesheet" href="./styles.css" />
-		<script defer src="./app.js"></script>
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="./app.js"></script>
 
-		<title>Timer</title>
-	</head>
-	<body>
-		<div class="wrapper">
-			<main class="content">
-				<h1 class="title">Simple Timer</h1>
-				<form class="timer" id="timer-form">
-					<div class="info">
-						Set timer for
-						<input
-							class="input"
-							type="number"
-							name="time"
-							value="5"
-							max="99"
-							min="1"
-							aria-label="number of minutes"
-						/>
-						minutes.
-					</div>
-					<div class="countdown">
-						<p class="number" id="tens-minutes">0</p>
-						<p class="number" id="minutes">0</p>
-						<p class="dots">:</p>
-						<p class="number" id="tens-seconds">0</p>
-						<p class="number" id="seconds">0</p>
-					</div>
-					<button class="button" type="submit" name="start">
-						<img src="./assets/play.svg" alt="Play icon" width="18" />
-						<span class="button-text">Start timer</span>
-					</button>
-				</form>
-			</main>
-		</div>
-	</body>
+    <title>Timer</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <main class="content">
+        <h1 class="title">Simple Timer</h1>
+        <form class="timer" id="timer-form">
+          <div class="info">
+            Set timer for
+            <input
+              class="input"
+              type="number"
+              name="time"
+              value="5"
+              max="99"
+              min="1"
+              aria-label="number of minutes"
+            />
+            minutes.
+          </div>
+          <div class="countdown">
+            <p class="number" id="tens-minutes">0</p>
+            <p class="number" id="minutes">0</p>
+            <p class="dots">:</p>
+            <p class="number" id="tens-seconds">0</p>
+            <p class="number" id="seconds">0</p>
+          </div>
+          <button class="button" type="submit" name="start">
+            <img src="./assets/play.svg" alt="Play icon" width="18" />
+            <span class="button-text">Start timer</span>
+          </button>
+        </form>
+      </main>
+    </div>
+  </body>
 </html>
